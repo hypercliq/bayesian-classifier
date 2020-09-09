@@ -1,7 +1,6 @@
 {
   "name": "nlp-engine",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "pretest": "npm run lint",
@@ -11,7 +10,7 @@
     "format": "prettier --loglevel warn --write ."
   },
   "keywords": [],
-  "author": "",
+  "author": "Mirco Sanguineti - Hypercliq",
   "license": "ISC",
   "dependencies": {
     "commander": "^6.1.0",
@@ -20,5 +19,14 @@
   "devDependencies": {
     "eslint": "^7.8.1",
     "prettier": "^2.1.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hypercliq/nlp-engine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hypercliq/nlp-engine/issues"
+  },
+  "homepage": "https://github.com/hypercliq/nlp-engine#readme",
+  "description": ""
 }
