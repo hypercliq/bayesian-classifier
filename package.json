@@ -22,11 +22,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hypercliq/nlp-engine.git"
+    "url": "git+https://github.com/hypercliq/bayesian-classifier.git"
   },
   "bugs": {
-    "url": "https://github.com/hypercliq/nlp-engine/issues"
+    "url": "https://github.com/hypercliq/bayesian-classifier/issues"
   },
-  "homepage": "https://github.com/hypercliq/nlp-engine#readme",
+  "homepage": "https://github.com/hypercliq/bayesian-classifier#readme",
   "description": "Simple bayesian classifier"
 }
