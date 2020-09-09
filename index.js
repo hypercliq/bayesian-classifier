@@ -8,7 +8,7 @@ const fs = require('fs')
 program
   .command('train')
   .option(
-    '-s, --training-set <file>',
+    '-t, --training-set <file>',
     'training set file name',
     'training_set.json'
   )
@@ -35,7 +35,7 @@ program
 
 program
   .command('classify [sample]')
-  .option('-s, --samples <file>', 'samples file', 'samples.json')
+  .option('-s, --samples <file>', 'test samples file', 'samples.json')
   .option('-m, --model <file>', 'model file', 'model.json')
   .option('-b, --best-match', 'show only best match', false)
   .description('Classify a samples or samples from a file applying a model')
