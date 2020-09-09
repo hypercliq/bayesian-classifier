@@ -1,5 +1,5 @@
 {
-  "name": "nlp-engine",
+  "name": "bayesian-classifier",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -28,5 +28,5 @@
     "url": "https://github.com/hypercliq/nlp-engine/issues"
   },
   "homepage": "https://github.com/hypercliq/nlp-engine#readme",
-  "description": ""
+  "description": "Simple bayesian classifier"
 }
